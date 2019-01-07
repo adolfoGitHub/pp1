@@ -10,6 +10,7 @@
 <body>
     <h1>Pair Program 1</h1>
 <?php
+
     //link to functions
     require "functions.php";
 
@@ -17,11 +18,11 @@
     $numbers = array(7,9,8,9,8,8,6);
 
     //print array
-    printArray($numbers);
+    echo "My Array: ".printArray($numbers);
     echo "<br/>";
 
     //find the largest
-    largest($numbers);
+    echo "Largest Number: ". largest($numbers);
     echo "<br/>";
 ?>
 
