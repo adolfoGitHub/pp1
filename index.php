@@ -24,6 +24,10 @@
     //find the largest
     echo "Largest Number: ". largest($numbers)."<br/>";
     echo "<br/>";
+
+    //find the average
+    echo "Average: ". average($numbers)."<br/>";
+    echo "<br/>";
 ?>
 
 
