@@ -7,7 +7,7 @@ function printArray($numbers)
     }
 }
 
-//function to find the largest number within an array
+//function to find the largest number within an array of numbers
 function largest($numbers)
 {
     $largest=$numbers[0];
@@ -17,4 +17,15 @@ function largest($numbers)
         }
     }
     return $largest;
+}
+//function to find the average within an array of numbers
+function average($numbers)
+{
+    $total=0;
+    $n=0;
+    foreach ($numbers as $key => $number) {
+        $total+= $number;
+        $n++;
+    }
+    return $total/$n;
 }
