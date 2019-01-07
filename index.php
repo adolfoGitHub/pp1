@@ -18,8 +18,11 @@
 
     //print array
     printArray($numbers);
+    echo "<br/>";
 
-
+    //find the largest
+    largest($numbers);
+    echo "<br/>";
 ?>
 
 
