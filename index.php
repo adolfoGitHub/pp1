@@ -1,4 +1,12 @@
 <!doctype html>
+<!--
+    PP1
+    IT328   FullStack WebDev
+    Author: Adolfo Gonzalez
+    Date:   January 4, 2019
+
+    Filename: index.php
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
