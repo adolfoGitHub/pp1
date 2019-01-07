@@ -10,9 +10,17 @@
 <body>
     <h1>Pair Program 1</h1>
 <?php
+    //array called numbers
     $numbers = array(7,9,8,9,8,8,6);
 
-
+//function to print array
+function printArray($numbers)
+{
+    foreach ($numbers as $key => $number) {
+        echo $number;
+    }
+}
+printArray($numbers);
 ?>
 
 
