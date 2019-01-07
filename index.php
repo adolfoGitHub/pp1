@@ -10,10 +10,16 @@
 <body>
     <h1>Pair Program 1</h1>
 <?php
+    //link to functions
+    require "functions.php";
+
     //array called numbers
     $numbers = array(7,9,8,9,8,8,6);
 
-printArray($numbers);
+    //print array
+    printArray($numbers);
+
+
 ?>
 
 
