@@ -12,7 +12,7 @@ function largest($numbers)
 {
     $largest=$numbers[0];
     foreach ($numbers as $key => $number) {
-        if($number>$largest) {
+        if($number > $largest) {
             $largest = $number;
         }
     }
@@ -49,5 +49,6 @@ function distribution($numbers)
             $result[$number]=1;
         }
     }
+    ksort($result);
     return $result;
 }
