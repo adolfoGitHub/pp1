@@ -28,6 +28,15 @@
     //find the average
     echo "Average: ". average($numbers)."<br/>";
     echo "<br/>";
+
+    //remove duplicates
+    echo "Remove duplicates: ";
+    foreach (removeDups($numbers) as $key => $number){
+        echo $number;
+    }
+    echo "<br/>";
+
+
 ?>
 
 
