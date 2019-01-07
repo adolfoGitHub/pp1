@@ -34,9 +34,14 @@
     foreach (removeDups($numbers) as $key => $number){
         echo $number;
     }
+    echo "<br/><br/>";
+
+    //test distribution function
+    echo "Distribution: ";
+    foreach (distribution($numbers) as $key => $number){
+    echo $key."=>".$number.", ";
+    }
     echo "<br/>";
-
-
 ?>
 
 
