@@ -1,4 +1,14 @@
 <?php
+/*
+    PP1
+    IT328   FullStack WebDev
+    Author: Adolfo Gonzalez
+    Date:   January 4, 2019
+
+    Filename: functions.php
+
+ */
+
 //function to print array
 function printArray($numbers)
 {
