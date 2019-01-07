@@ -29,3 +29,10 @@ function average($numbers)
     }
     return $total/$n;
 }
+//function to remove duplicate values
+function removeDups($numbers)
+{
+    $numbers=array_unique($numbers);
+    $numbers=array_values($numbers);
+    return $numbers;
+}
