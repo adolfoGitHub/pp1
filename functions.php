@@ -36,3 +36,18 @@ function removeDups($numbers)
     $numbers=array_values($numbers);
     return $numbers;
 }
+
+//add function to count instances of each value within array
+function distribution($numbers)
+{
+    $result=array();
+    foreach ($numbers as $key => $number) {
+        if(array_key_exists($number,$result)){
+            $result[$number]++;
+        }
+        else{
+            $result[$number]=1;
+        }
+    }
+    return $result;
+}
